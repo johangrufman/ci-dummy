@@ -1,3 +1,6 @@
 project: ci_dummy
-tasks:
+pipelines:
   - name: build
+    tasks:
+      - name: build
+      - name: test
